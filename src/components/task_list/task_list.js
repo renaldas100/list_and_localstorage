@@ -8,20 +8,21 @@ let initUzduotys=[
     // {pavadinimas:"", tipas:""},
 
 ]
-    // useEffect(()=>{
-    //     const data=localStorage.getItem("uzduotys")
-    //     if(data!=null) {
-    //         initUzduotys = JSON.parse(data);
-    //         console.log("uzkrauna")
-    //     }
-    // },[]);
+    useEffect(()=>{
+        const data=localStorage.getItem("uzduotys")
+        if(data!=null) {
+            const initUzduotys = JSON.parse(data);
+            setUzduotys(initUzduotys);
+            // console.log("uzkrauna");
+        }
+    },[]);
 
 
-     const data=localStorage.getItem("uzduotys")
-     if(data!=null) {
-         initUzduotys = JSON.parse(data);
-         console.log("uzkrauna")
-     }
+     // const data=localStorage.getItem("uzduotys")
+     // if(data!=null) {
+     //     initUzduotys = JSON.parse(data);
+     //     console.log("uzkrauna")
+     // }
 
 
     const [uzduotys, setUzduotys]=useState(initUzduotys);

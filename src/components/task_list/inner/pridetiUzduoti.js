@@ -6,12 +6,11 @@ const PridetiUzduoti=(props)=>{
 
 const initValue={
     pavadinimas:"",
-    tipas:""
+    tipas:"pasirinkti"
 };
 
 const [uzduotis, setUzduotis]=useState(initValue);
 
-const [pasirinkimas, setPasirinkimas]= useState("pasirinkti");
 
 
 const onFormSubmit=(event)=>{
@@ -19,13 +18,8 @@ const onFormSubmit=(event)=>{
     props.onPridetiUzduoti(uzduotis);
     setUzduotis(initValue);
 
-}
 
-const paspaudimas=(props)=>{
-    setPasirinkimas(props.target.value);
-    console.log(props.target.value);
-};
-console.log(pasirinkimas);
+}
 
 const onPavadinimasChange=(event)=>{
 setUzduotis({
@@ -52,12 +46,12 @@ return (
            <div>
                <label className="form-label mt-4">Užduoties tipas</label> <br />
                {/*<input type="text" className="form-control" onChange={onTipasChange} value={uzduotis.tipas} />*/}
-               <select style={{width:"250px", height:"50px", fontSize:"20px", background:"#343a40", color:"gold"}}>
+               <select style={{width:"250px", height:"50px", fontSize:"20px", background:"#343a40", color:"gold", borderRadius:"15px 15px 0px 0px", paddingLeft:"15px"}} onChange={onTipasChange} value={uzduotis.tipas}>
                    <option value={"pasirinkti"}>Pasirinkite kategoriją</option>
-                   <option value={"Neskubus"} onClick={onTipasChange}>Neskubus</option>
-                   <option value={"Rutininis"} onClick={onTipasChange}>Rutininis</option>
-                   <option value={"Skubus"} onClick={onTipasChange}>Skubus</option>
-                   <option value={"Ypač skubus"} onClick={onTipasChange}>Ypač skubus</option>
+                   <option value={"Neskubus"}>Neskubus</option>
+                   <option value={"Rutininis"}>Rutininis</option>
+                   <option value={"Skubus"}>Skubus</option>
+                   <option value={"Ypač skubus"}>Ypač skubus</option>
                </select>
 
            </div>
