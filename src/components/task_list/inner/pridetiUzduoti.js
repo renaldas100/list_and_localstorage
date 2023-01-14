@@ -46,7 +46,7 @@ return (
            <div>
                <label className="form-label mt-4">Užduoties tipas</label> <br />
                {/*<input type="text" className="form-control" onChange={onTipasChange} value={uzduotis.tipas} />*/}
-               <select style={{width:"250px", height:"50px", fontSize:"20px", background:"#343a40", color:"gold", borderRadius:"15px 15px 0px 0px", paddingLeft:"15px"}} onChange={onTipasChange} value={uzduotis.tipas}>
+               <select style={{width:"250px", height:"50px", fontSize:"20px", background:"#343a40", color:"gold", borderRadius:"10px 10px 0px 0px", paddingLeft:"15px"}} onChange={onTipasChange} value={uzduotis.tipas}>
                    <option value={"pasirinkti"}>Pasirinkite kategoriją</option>
                    <option value={"Neskubus"}>Neskubus</option>
                    <option value={"Rutininis"}>Rutininis</option>

@@ -3,7 +3,7 @@ import PridetiUzduoti from "./inner/pridetiUzduoti";
 
 import {useState, useEffect} from "react";
 
-const TaskList=()=>{
+const TaskList=(props)=>{
 let initUzduotys=[
     // {pavadinimas:"", tipas:""},
 
@@ -13,7 +13,8 @@ let initUzduotys=[
         if(data!=null) {
             const initUzduotys = JSON.parse(data);
             setUzduotys(initUzduotys);
-            // console.log("uzkrauna");
+            // console.log(initUzduotys);
+            props.updateKiekis(initUzduotys.length);
         }
     },[]);
 
@@ -36,12 +37,14 @@ let initUzduotys=[
         uzduotys.push(uzduotis);
         issaugotiUzduotis();
         setUzduotys(Array.from(uzduotys));
+        props.updateKiekis(uzduotys.length);
     };
 
     const trintiUzduoti=(index)=>{
         uzduotys.splice(index,1);
         issaugotiUzduotis();
         setUzduotys(Array.from(uzduotys));
+        props.updateKiekis(uzduotys.length);
     };
 
     return(
