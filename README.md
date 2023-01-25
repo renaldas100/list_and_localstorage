@@ -11,3 +11,13 @@ Užduoties tipas (pavyzdžiui: "Skubus", "Rutininis", "Neskubus", "Ypač skubus"
 ## Printscreen
 ![list_and_localstorage](https://user-images.githubusercontent.com/117721797/214674110-c20c8271-82eb-4324-ad00-9ec90890aa43.jpg)
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
