@@ -1,4 +1,4 @@
-# List_and_localstorage
+# List and localstorage
 
 Naudotos technologojos REACT + BOOTSTRAP
 
@@ -9,4 +9,4 @@ Sukurta aplikacija kurioje talpinamas užduočių sąrašas (task list'as). Apli
 Sukurtojoje aplikacijoje paspaudus mygtuką "pridėti" užduotis yra pridedama į sąrašą. Visos išsaugotos užduotys yra atvaizduojamos sąrašu puslapyje ir taip pat yra galimybė pašalinti užduotis iš sąrašo. Užduotis yra išsaugomos į localstorage.
 
 ## Printscreen
-![list_and_localstorage](https://user-images.githubusercontent.com/117721797/214669475-efd21b05-15f3-40ba-b2b9-e58213b66eb8.jpg)
+![list_and_localstorage](https://user-images.githubusercontent.com/117721797/214674110-c20c8271-82eb-4324-ad00-9ec90890aa43.jpg)
