@@ -1,4 +1,4 @@
-# Lietaus rezervuaro skaiciavimas
+# List and localstorage
 
 Naudotos technologojos REACT + BOOTSTRAP
 
