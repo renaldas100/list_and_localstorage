@@ -21,3 +21,4 @@ Užduoties tipas (pavyzdžiui: "Skubus", "Rutininis", "Neskubus", "Ypač skubus"
   
   
    
+List and localstorage
