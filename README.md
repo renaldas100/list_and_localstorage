@@ -20,7 +20,7 @@ Paspaudus skaičiuoti aplikacija suskaičiuoja kiek % rezervuaro yra užpildyta.
 5. Padaryta taip, kad jei rezervuaras yra pripildytas daugiau nei 80% atsirastų bootstrap pranešimas, jog rezervuaro talpa kritiškai pripildyta. Jei pripildymas būtų 100% ar daugiau atsirada pranešimas, jog talpa yra perpildyta. Padarta jog pranešimų klasės būtų atitinkamos: 0-80% žalios spalvos, 80%-100% geltonos, 100% ir daugiau raudonos spalvos. 
 
 ## Printscreen
-![rain_reservoir_calculation](https://user-images.githubusercontent.com/117721797/214671656-eeb99dab-cfff-4c06-a9c3-12b8ca5fe7ee.jpg)
+![list_and_localstorage](https://user-images.githubusercontent.com/117721797/214674110-c20c8271-82eb-4324-ad00-9ec90890aa43.jpg)
 
 
 
